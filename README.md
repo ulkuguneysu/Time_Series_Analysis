@@ -192,26 +192,49 @@ We are looking to maximize ***ROI*** while minimizinf *Risk*.
 
  #### 18-Month Investment
  
-For our company we will recommend zipcodes with maximum 10% risk factor with at least 1% return on investment annually for 18 month period. We also want our return on investment percentage higher or equal to risk factor.
+For our company we will recommend zipcodes with maximum 10% risk factor with at least 1% return on investment annually for 18 month period. We also want our return on investment percentage - risk factor ratio above 0.5.
 
       1.   78744
-      2.   78747
-      3.   78759
-      4.   78757
-      5.   78704
+      2.   78754
+      3.   78757
+      4.   78704
+      5.   78756
+
     
  #### 36-Month Investment
 
-For longer term investments, we observed from the prediction graphs for each zipcode, the distance between confidence intervals expands which indicates that out lower confidence interval get smaller. For our company we will recommend zipcodes with maximum 20% risk factor with at least 1% return on investment annually for 36 month period. Because we increased the risk factor for future predictions (from 10 to 20 percent), we would want return on investment - risk ratio at least 0.5.
+For longer term investments, we observed from the prediction graphs for each zipcode, the distance between confidence intervals expands which indicates that out lower confidence interval get smaller. For our company we will recommend zipcodes with maximum 20% risk factor with at least 1% return on investment annually for 36 month period. Because we increased the risk factor for future predictions (from 10 to 20 percent), we would want return on investment - risk ratio at least 0.25 (1/2 of the 18 month since we doubled risk factor).
 
-      1.   78747
-      2.   78744
-      3.   78759
-      4.   78757
-      5.   78704
-
+      1.   78744
+      2.   78757
+      3.   78704
+      4.   78756
+      5.   78732
 
 
 ## SUMMARY
 
-We have analyzed property prices in Austin, TX area between 2012 and 2018. We observed *upward linear* trend in our time series so we log-transformed the data for **SARIMAX** fitting. We used ***auto arima*** to gridsearch for the best parameters for each zipcodes. We calculated *Mean Squared Error (MSE)* by validating data from *2016-09-01*. (Validation set ratio: 20/76) The standard deviation of mean squared value is very small to be significant so we used future predictions and lower confidence intervals to calculate ***Return on Investment*** and ***Risk Factor*** for 18 and 36 months investment periods. We observed that the distance between confidence intervals increases with time which results in increasing risk factor for longer investment periods. For each investment period we determined at least 1% annual return, risk factor limits (10% and 20%) and return on investment - risk factor ratio (1 and 0.5). According to our findings, top 5 zipcodes for 18-month and 36-month investments are the same zipcodes with different orders which are **78747, 78747, 78759, 78757, 78704**.
+We have analyzed property prices in Austin, TX area between 2012 and 2018. We observed *upward linear* trend in our time series so we log-transformed the data for **SARIMAX** fitting. We used ***auto arima*** to gridsearch for the best parameters for each zipcodes. We calculated *Mean Squared Error (MSE)* by validating data from *2016-09-01*. (Validation set ratio: 20/76) The standard deviation of mean squared value is very small to be significant so we used future predictions and lower confidence intervals to calculate ***Return on Investment*** and ***Risk Factor*** for 18 and 36 months investment periods. We observed that the distance between confidence intervals increases with time which results in increasing risk factor for longer investment periods. For each investment period we determined at least 1% annual return, risk factor limits (10% and 20%) and return on investment - risk factor ratio (0.5 and 0.25). 
+
+*According to our findings:*
+
+Top 5 zipcodes to invest for 18-months:
+
+          1.   78744
+          2.   78754
+          3.   78757
+          4.   78704
+          5.   78756
+          
+> <img src="Images/18mo.png">
+
+Top 5 zipcodes to invest for 36-months:
+
+          1.   78744
+          2.   78757
+          3.   78704
+          4.   78756
+          5.   78732
+          
+> <img src="Images/36mo.png">
+
