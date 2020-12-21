@@ -226,7 +226,7 @@ Top 5 zipcodes to invest for 18-months:
           4.   78704
           5.   78756
           
-> <img src="Images/18mo.png">
+<img src="Images/18mo.png">
 
 Top 5 zipcodes to invest for 36-months:
 
@@ -236,5 +236,5 @@ Top 5 zipcodes to invest for 36-months:
           4.   78756
           5.   78732
           
-> <img src="Images/36mo.png">
+<img src="Images/36mo.png">
 
