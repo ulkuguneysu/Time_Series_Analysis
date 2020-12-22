@@ -1,4 +1,5 @@
  # PROPERTY VALUE PREDICTIONS
+ <img src="Images/austin_map.png">
 
  ## Introduction
 
