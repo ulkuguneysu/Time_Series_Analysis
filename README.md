@@ -132,9 +132,9 @@ Compare ACF and PACF plots and determine p,d,q values.
 
 - **AR and MA signatures:** If the PACF displays a sharp cutoff while the ACF decays more slowly (i.e., has significant spikes at higher lags), we say that the stationarized series displays an "AR signature," meaning that the autocorrelation pattern can be explained more easily by adding AR terms than by adding MA terms. (p over q)
 
-> d = 2
-> p = 1
-> q = 0
+*   d = 2
+*   p = 1
+*   q = 0
 
 <img src="Images/bm_summary.png">
 
