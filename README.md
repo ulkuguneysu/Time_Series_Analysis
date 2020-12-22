@@ -1,5 +1,5 @@
  # PROPERTY VALUE PREDICTIONS
- <img src="Images/austin_map.png">
+ <img src="Images/px_2018_buyvalue.png">
 
  ## Introduction
 
@@ -200,6 +200,8 @@ For our company we will recommend zipcodes with maximum 10% risk factor with at 
       3.   78757
       4.   78704
       5.   78756
+      
+<img src="Images/px_roi18.png">
 
     
  #### 36-Month Investment
@@ -211,6 +213,8 @@ For longer term investments, we observed from the prediction graphs for each zip
       3.   78704
       4.   78756
       5.   78732
+    
+<img src="Images/px_roi36.png">
 
 
 ## SUMMARY
@@ -238,4 +242,3 @@ Top 5 zipcodes to invest for 36-months:
           5.   78732
           
 <img src="Images/36mo.png">
-
