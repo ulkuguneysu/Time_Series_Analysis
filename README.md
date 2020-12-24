@@ -186,7 +186,6 @@ Calculate ROI percentage for the each investment term to see which zipcodes have
 
 <img src="Images/formula_roi_per.png">
 
-
 Calculate risk factor for each zipcode using lower confidence interval.
 
 <img src="Images/formula_risk.png">
