@@ -177,7 +177,7 @@ At the end, we save the results as a dataframe.
  
 What one investor considers a "good" ROI may be unacceptable to another. A good ROI on real estate varies by risk tolerance. Real estate risk is defined as the uncertainty in achieving the investor’s expected return on the basis of which the property was acquired. The more risk you're willing to take, the higher ROI you'll expect. Conversely, risk-averse investors may happily settle for lower ROIs in exchange for more stability.
 
-<img src="Images/formula_roi.png">
+<img src="Images/roi_formula.png">
 
 
 The standard deviation of Mean Squared Error value is very small to be significant so we will make our recommendations based on other variables. We observe from the dataframe above, ROI percentages and risks are different for short term (18 months) and long term (36 months) investments. Let's check data for each investment term to determine predictor boundries.
