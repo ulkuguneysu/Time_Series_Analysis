@@ -47,7 +47,7 @@ Our company is interested in investing in Austin, TEXAS area. We will subset our
 
  <img src="Images/trends_1996_2018.png">
  
-We observe multiple pozitif and negative trends and seasonalities.
+We observe multiple positive and negative trends and seasonalities.
 
 > Check Property Value Change Between 1996 and 2018
 
